@@ -6,10 +6,8 @@ const SidebarContent = () => {
           {
               Items.map((item) =>
                   <div className="flex text-white pt-6" key={item.id}>
-                      <div className="w-9 h-9 rounded-full border border-white grid place-content-center">
-                          <div>
-                              {item.number}
-                          </div>
+                      <div className="w-9 h-9 rounded-full border border-white flex items-center justify-center">
+                          {item.number}
                       </div>
                       <div className="ml-2">
                           <h3 className="text-xs text-light-gray">STEP {item.number}</h3>
