@@ -5,7 +5,7 @@ const Sidebar = () => {
       <>
           <div className="flex basis-1/3 h-full rounded-lg">
               <img className="object-cover rounded-lg" src="assets/images/bg-sidebar-desktop.svg" alt="Sidebar"/>
-              <div className="absolute pl-6 pt-4">
+              <div className="absolute pl-6">
                   <SidebarContent
                       number="1"
                       pageName="YOUR INFO"/>
