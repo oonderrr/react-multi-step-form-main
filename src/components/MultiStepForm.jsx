@@ -33,15 +33,15 @@ const MultiStepForm = () => {
 
     const renderNavigationButtons = () => {
         return (
-            <div className="flex justify-between mb-6">
+            <div className="flex  mb-6">
                 {currentPage > 0 && ( // Conditionally render "Go Back" button
                     <button onClick={handleBack} className="ml-6 text-cool-gray hover:text-marine-blue">Go Back</button>
                 )}
                 {currentPage < 3 && ( // Conditionally render "Next Step" button
-                    <button onClick={handleNext} className="w-32 h-11 bg-marine-blue text-white rounded-lg mr-6">Next Step</button>
+                    <button onClick={handleNext} className="w-32 h-11 bg-marine-blue text-white rounded-lg mr-6 ms-auto">Next Step</button>
                 )}
                 {currentPage === 3 && ( // Conditionally render "Confirm" button on last step
-                    <button className="w-32 h-11 bg-green-500 text-white rounded-lg mr-6">Confirm</button>
+                    <button className="w-32 h-11 bg-green-500 text-white rounded-lg mr-6 ms-auto">Confirm</button>
                 )}
             </div>
         );
