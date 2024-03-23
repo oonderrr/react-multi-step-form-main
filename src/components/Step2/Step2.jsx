@@ -22,7 +22,7 @@ const Step2 = () => {
                         price={"$15/mo"}/>
                 </div>
                 <div className="mt-5">
-                    <button className="border border-light-gray w-24 h-11 rounded-lg mr-5 active:border-purplish-blue active:text-purplish-blue">Montly</button>
+                    <button className="border border-light-gray w-24 h-11 rounded-lg mr-5 hover:border-purplish-blue focus:text-purplish-blue">Montly</button>
                     <button className="border border-light-gray w-20 h-11 rounded-lg">Yearly</button>
 
                 </div>

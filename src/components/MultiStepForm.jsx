@@ -50,7 +50,7 @@ const MultiStepForm = () => {
     return(
       <>
         <div className="flex bg-white h-5/6 w-[60rem] rounded-xl shadow-2xl space-x-3 p-3">
-            <Sidebar/>
+            <Sidebar pageNumber={currentPage}/>
           <div className="basis-2/3 h-full grid content-between">
               {renderCurrentPage()}
               {renderNavigationButtons()}
